@@ -44,6 +44,7 @@ class ViewController: UIViewController {
         } else {
             print("テスト用の変更点")
             print("Invalid URL")
+            print("テスト用の変更2")
         }
     }
 }
