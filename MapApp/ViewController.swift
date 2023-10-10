@@ -42,6 +42,7 @@ class ViewController: UIViewController {
                 UIApplication.shared.open(URL(string: "https://www.google.com/maps/search/?api=1&query=\(encodedAddress)")!, options: [:], completionHandler: nil)
             }
         } else {
+            print("あわわわわ")
             print("コンフリクトを発生させます")
         }
     }
