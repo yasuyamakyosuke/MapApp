@@ -43,6 +43,7 @@ class ViewController: UIViewController {
             }
         } else {
             print("あわわわわ")
+            print("Please enter an address.")
             print("コンフリクトを発生させます")
         }
     }
