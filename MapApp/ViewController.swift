@@ -34,6 +34,8 @@ class ViewController: UIViewController {
             print("あわわわわ")
             print("あわわわわ")
             print("あわわわわ")
+            print("コンフリクトを発生させます")
+            print("コンフリクトを発生させます")
             return
         }
         
