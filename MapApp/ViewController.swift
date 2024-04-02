@@ -46,6 +46,7 @@ class ViewController: UIViewController {
         } else {
             print("あわわわわ")
             print("コンフリクトを発生させます")
+            print("先行き不安すぎる")
         }
     }
 }
