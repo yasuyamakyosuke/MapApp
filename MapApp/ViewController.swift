@@ -30,12 +30,6 @@ class ViewController: UIViewController {
     
     private func openGoogleMaps() {
         guard let address = addressTextField.text, !address.isEmpty else {
-            print("Please enter an address.")
-            print("あわわわわ")
-            print("あわわわわ")
-            print("あわわわわ")
-            print("コンフリクトを発生させます")
-            print("コンフリクトを発生させます")
             return
         }
         
@@ -47,11 +41,6 @@ class ViewController: UIViewController {
                 UIApplication.shared.open(URL(string: "https://www.google.com/maps/search/?api=1&query=\(encodedAddress)")!, options: [:], completionHandler: nil)
             }
         } else {
-            print("あわわわわ")
-            print("あわわわわ")
-            print("Please enter an address.")
-            print("コンフリクトを発生させます")
-            print("先行き不安すぎる")
         }
     }
 }
